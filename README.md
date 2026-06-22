@@ -51,12 +51,5 @@ Open `index.html` in any browser.
 6. Choose `main` branch and `/root` folder.
 7. Save and wait for the live link.
 
-## Suggested Demo Recording Flow
-
-1. Show the hero section and mention the cyborg theme.
-2. Scroll through the feature modules.
-3. Open the interactive control deck and click Rescue, Defense, and Medical modes.
-4. Show the architecture section.
-5. Resize the browser or use mobile preview to show responsiveness.
 6. Show the final CTA form interaction.
 7. End by mentioning that the GitHub link and Google Drive demo link are submitted.
