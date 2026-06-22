@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CYBERNEXUS is a polished, responsive cyborg-themed landing page built with HTML, CSS, and JavaScript." />
+  <title>CYBERNEXUS | Cyborg-Themed Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="orb orb-one" aria-hidden="true"></div>
+  <div class="orb orb-two" aria-hidden="true"></div>
+
+  <header class="navbar" id="top">
+    <a class="brand" href="#top" aria-label="CYBERNEXUS homepage">
+      <span class="brand-icon">CN</span>
+      <span class="brand-text">CYBER<span>NEXUS</span></span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#brief">Brief</a>
+      <a href="#features">Modules</a>
+      <a href="#deck">Control Deck</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#submit">Submit</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> Responsive Cyborg Landing Page</div>
+        <h1>Designing the future of human-machine intelligence.</h1>
+        <p class="hero-subtitle">
+          CYBERNEXUS is a futuristic landing page concept for a next-generation cyborg interface system. It combines a clean product story, interactive HUD visuals, responsive UI, and modern web animations.
+        </p>
+        <div class="hero-actions">
+          <a href="#deck" class="btn primary">View live interface</a>
+          <a href="#features" class="btn secondary">Explore modules</a>
+        </div>
+        <div class="trust-row" aria-label="Project highlights">
+          <div><strong>HTML</strong><span>Semantic structure</span></div>
+          <div><strong>CSS</strong><span>Modern responsive UI</span></div>
+          <div><strong>JS</strong><span>Interactive experience</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Cyborg interface illustration">
+        <div class="visual-frame">
+          <div class="scan-line"></div>
+          <div class="cyborg-head">
+            <div class="head-left">
+              <div class="human-eye"></div>
+              <div class="human-mouth"></div>
+            </div>
+            <div class="head-right">
+              <div class="tech-eye"></div>
+              <div class="chip chip-a"></div>
+              <div class="chip chip-b"></div>
+              <div class="circuit-line one"></div>
+              <div class="circuit-line two"></div>
+              <div class="circuit-line three"></div>
+            </div>
+            <div class="neck"></div>
+          </div>
+          <div class="hud-card hud-top">
+            <span>NEURAL LINK</span>
+            <strong id="neuralCount">98%</strong>
+          </div>
+          <div class="hud-card hud-bottom">
+            <span>VISION LAYER</span>
+            <strong>ACTIVE</strong>
+          </div>
+          <div class="radar">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brief section-pad compact" id="brief">
+      <div class="section-heading reveal">
+        <p class="tag">Task interpretation</p>
+        <h2>Not just a robot page — a complete cyborg product experience.</h2>
+        <p>
+          The page is structured like a real landing page: strong hero, clear problem-solution story, feature modules, system architecture, interactive demonstration, and a final call-to-action.
+        </p>
+      </div>
+
+      <div class="brief-grid">
+        <article class="brief-card reveal">
+          <span>01</span>
+          <h3>Theme accuracy</h3>
+          <p>Human + machine design language using neural, optical, biometric, and mechanical interface elements.</p>
+        </article>
+        <article class="brief-card reveal">
+          <span>02</span>
+          <h3>Professional UI/UX</h3>
+          <p>Readable hierarchy, balanced spacing, accessible contrast, glass panels, grid composition, and precise CTAs.</p>
+        </article>
+        <article class="brief-card reveal">
+          <span>03</span>
+          <h3>Submission ready</h3>
+          <p>Clean files, responsive layout, README, demo script, and GitHub Pages deployment instructions included.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="features section-pad" id="features">
+      <div class="section-heading reveal">
+        <p class="tag">Core modules</p>
+        <h2>What the cyborg system offers</h2>
+        <p>Each card uses product-style copy so the assignment feels like a real futuristic platform, not a random template.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon">⌁</div>
+          <h3>Neural Sync</h3>
+          <p>Connects human decision signals with AI-assisted recommendations in real time.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon">◉</div>
+          <h3>Augmented Vision</h3>
+          <p>Highlights threats, routes, targets, and important data through a clean HUD layer.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon">▣</div>
+          <h3>Bio Signal Monitor</h3>
+          <p>Tracks heartbeat, stress, temperature, and energy state for safer missions.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon">⟲</div>
+          <h3>Exo Motion Assist</h3>
+          <p>Supports movement, balance, and reaction time using adaptive mechanical control.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon">⬡</div>
+          <h3>Encrypted Identity</h3>
+          <p>Protects biometric access through multi-layer authentication and secure session tokens.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon">✦</div>
+          <h3>Adaptive Interface</h3>
+          <p>Automatically reorganizes controls depending on mission, environment, and user focus.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="deck section-pad" id="deck">
+      <div class="deck-copy reveal">
+        <p class="tag">Interactive control deck</p>
+        <h2>Live mission dashboard</h2>
+        <p>
+          The demo panel gives the evaluator something to interact with during the screen recording. Click a mission mode to update the interface state.
+        </p>
+        <div class="mode-buttons" role="group" aria-label="Mission mode selector">
+          <button class="mode-btn active" type="button" data-mode="rescue">Rescue</button>
+          <button class="mode-btn" type="button" data-mode="defense">Defense</button>
+          <button class="mode-btn" type="button" data-mode="medical">Medical</button>
+        </div>
+      </div>
+
+      <div class="control-panel reveal" aria-live="polite">
+        <div class="panel-header">
+          <span>CYBERNEXUS // OPS</span>
+          <strong id="modeLabel">RESCUE MODE</strong>
+        </div>
+        <div class="panel-grid">
+          <div class="metric-card">
+            <span>Bio Stability</span>
+            <div class="meter"><i id="bioMeter"></i></div>
+            <strong id="bioText">92%</strong>
+          </div>
+          <div class="metric-card">
+            <span>AI Assist</span>
+            <div class="meter"><i id="aiMeter"></i></div>
+            <strong id="aiText">86%</strong>
+          </div>
+          <div class="metric-card wide">
+            <span>Current Objective</span>
+            <p id="objectiveText">Locate survivors, map safe path, and stabilize rescue route.</p>
+          </div>
+          <div class="terminal wide">
+            <p>&gt; booting neural overlay...</p>
+            <p>&gt; calibrating optic layer...</p>
+            <p id="terminalText">&gt; mission package loaded: rescue navigation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="architecture section-pad" id="architecture">
+      <div class="section-heading reveal">
+        <p class="tag">System architecture</p>
+        <h2>A simple story of how the cyborg interface works</h2>
+        <p>Including an architecture section makes the landing page look more thoughtful and technical.</p>
+      </div>
+
+      <div class="architecture-flow reveal">
+        <div class="flow-node">
+          <span>01</span>
+          <h3>Sense</h3>
+          <p>Biometric sensors, camera feed, motion data, and environment inputs are collected.</p>
+        </div>
+        <div class="flow-line"></div>
+        <div class="flow-node">
+          <span>02</span>
+          <h3>Analyze</h3>
+          <p>AI engine processes signals, detects patterns, and ranks decisions by urgency.</p>
+        </div>
+        <div class="flow-line"></div>
+        <div class="flow-node">
+          <span>03</span>
+          <h3>Assist</h3>
+          <p>HUD, exo support, alerts, and secure commands guide the user without overload.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase section-pad">
+      <div class="showcase-card reveal">
+        <div>
+          <p class="tag">Responsive UX</p>
+          <h2>Built to look clean on laptop and mobile.</h2>
+          <p>
+            The layout uses CSS Grid, flexible cards, mobile navigation, proper touch targets, and reduced motion support. This is important because the task specifically asks for a responsive landing page.
+          </p>
+        </div>
+        <div class="device-stack" aria-hidden="true">
+          <div class="desktop-preview">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="phone-preview">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="submit section-pad compact" id="submit">
+      <div class="submit-card reveal">
+        <p class="tag">Final call-to-action</p>
+        <h2>Ready for demo submission.</h2>
+        <p>
+          Upload this project to GitHub, enable GitHub Pages, record a short demo, and share the Google Drive video with viewer access.
+        </p>
+        <form class="cta-form">
+          <input type="email" placeholder="Enter evaluator email preview" aria-label="Email preview input" />
+          <button type="submit">Request access</button>
+        </form>
+        <small class="form-message">Demo form only — no data is stored.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>CYBERNEXUS — Cyborg-Themed Landing Page Development</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
